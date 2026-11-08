@@ -1,0 +1,11 @@
+# Local Java toolchain
+/oracleJdk-27/
+
+# Local database dump may contain account hashes and store data
+/etalase_master.sql
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
